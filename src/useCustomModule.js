@@ -1,6 +1,11 @@
 
+
+/**
+ * use custom module
+ */
+
 var http = require('http');
-var dt = require('./myfirstmodule');
+var dt = require('./customModule');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
