@@ -1,4 +1,6 @@
 
+Node.js is a very powerful JavaScript-based platform built on Google Chrome's JavaScript V8 Engine.
+Node.js = Runtime Environment + JavaScript Library
 
 * Node.js is an open source server environment.
 * Node.js allows you to run JavaScript on the server.
@@ -29,3 +31,21 @@ What is a Node.js File?
 * A typical event is someone trying to access a port on the server
 * Node.js files must be initiated on the server before having any effect
 * Node.js files have extension ".js"
+
+Where to Use Node.js?
+I/O bound Applications
+Data Streaming Applications
+Data Intensive Real-time Applications (DIRT)
+JSON APIs based Applications
+Single Page Applications
+
+Where Not to Use Node.js?
+It is not advisable to use Node.js for CPU intensive applications.
+
+We use the require directive to load Node.js modules.
+
+Node comes bundled with a REPL environment.
+Read − Reads user's input, parses the input into JavaScript data-structure, and stores in memory.
+Eval − Takes and evaluates the data structure.
+Print − Prints the result.
+Loop − Loops the above command until the user presses ctrl-c twice.
